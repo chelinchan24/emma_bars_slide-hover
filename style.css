@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEEFF0;
+}
+
+.容器 {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+
+    /* 樣式 */
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 6px 34px -10px rgba(0,0,0,0.16);
+    border-radius: 14px;
+    padding: 0px 2px 0px 2px;
+    box-sizing: border-box;
+}
+
+/*
+    選項的物件本身需要和滑塊一樣高，否則會影響使用者體驗。
+*/
+.選項 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    /* 樣式 */
+    padding: 0px 12px 0px 12px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.標題 {
+    position: relative;
+
+    /* 樣式 */
+    font-size: 14px;
+}
+
+/*
+    滑塊是 absolute 物件，高度和寬度固定跟選項文字的 <span> 一樣寬。
+    元素本身不可見，僅用於定位。樣式為透過滑塊的 :after 來決定。
+
+    滑塊的位置是透過選項的物件位置來決定，因此需要 z-index 比選項還低一層，
+    否則將會影響位置判定。
+*/
+.滑塊 {
+    position: absolute;
+    z-index: 1;
+
+    /* 樣式 */
+    transition: 0.2s ease;
+}
+
+.滑塊:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+
+    /* 樣式 */
+    padding: 8px;
+    top: -8px;
+    left: -8px;
+    background: #EDF0F2;
+    border-radius: 8px;
+}

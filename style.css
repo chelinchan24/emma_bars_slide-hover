@@ -1,15 +1,5 @@
-body {
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #EEEFF0;
-}
-
 .容器 {
+    /* 必要 */
     display: inline-flex;
     position: relative;
     align-items: center;
@@ -27,6 +17,7 @@ body {
     選項的物件本身需要和滑塊一樣高，否則會影響使用者體驗。
 */
 .選項 {
+    /* 必要 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +30,7 @@ body {
 }
 
 .標題 {
+    /* 必要 */
     position: relative;
 
     /* 樣式 */
@@ -53,6 +45,7 @@ body {
     否則將會影響位置判定。
 */
 .滑塊 {
+    /* 必要 */
     position: absolute;
     z-index: 1;
 
@@ -61,6 +54,7 @@ body {
 }
 
 .滑塊:after {
+    /* 必要 */
     content: '';
     height: 100%;
     width: 100%;

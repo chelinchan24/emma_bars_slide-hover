@@ -19,6 +19,9 @@ https://user-images.githubusercontent.com/16677586/124363580-a48ab880-dc6e-11eb-
 ### HTML
 每一組元件分成三層，分別是元件本身最外層的容器、每一個選項的按鈕，以及按鈕的標題。套件是透過各元素的 `class` 的名稱來辨識各元件的，因此所有的 `class` 都可以自訂。
 ``` html
+<!--
+    選項之間需要透過註解（<!-- -->）標籤來避免 inline 物件產生的空格。
+-->
 <div class="容器">
     <div class="選項">
         <span class="標題">葦名城</span>
@@ -38,8 +41,6 @@ https://user-images.githubusercontent.com/16677586/124363580-a48ab880-dc6e-11eb-
     <div class="滑塊"></div>
 </div>
 ```
-選項之間需要透過 ` <!-- -->` 來避免 `inline` 物件產生的空格。  
-
 `class` 分為五種：最外層的容器、選項的按鈕、按鈕標題、作為背景的滑塊、啟用中按鈕的標記。  
   
 作為標記的 `class` 會被放在使用者選中的按鈕上：

@@ -49,4 +49,7 @@ https://user-images.githubusercontent.com/16677586/124361079-c0d32900-dc5f-11eb-
 emma_bars_slideSegmentedControls('容器', '選項', '標題', '滑塊', '啟用')
 ```
 ### CSS
-CSS 的說明有寫在 [`style.css`](https://github.com/chelinchan24/emma_bars_slide-segmented-controls/blob/master/style.css) 檔案內。
+CSS 的說明寫在 [`style.css`](https://github.com/chelinchan24/emma_bars_slide-segmented-controls/blob/master/style.css) 檔案內。
+
+## 授權
+本套件以 CC-BY 4.0 分享。如果您想使用本套件，請記得要註明作者 @chelinchan24，並附上連結「emma.chel.in(emma.chel.in)」。

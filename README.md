@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/16677586/124361079-c0d32900-dc5f-11eb-
 ## 使用
 ### HTML
 每一組元件分成三層，分別是元件本身最外層的容器、每一個選項的按鈕，以及按鈕的標題。套件是透過各元素的 `class` 的名稱來辨識各元件的，因此所有的 `class` 都可以自訂。
-```
+``` html
 <div class="容器">
     <div class="選項">
         <span class="標題">葦名城</span>
@@ -40,14 +40,14 @@ https://user-images.githubusercontent.com/16677586/124361079-c0d32900-dc5f-11eb-
 `class` 分為五種：最外層的容器、選項的按鈕、按鈕標題、作為背景的滑塊、啟用中按鈕的標記。  
   
 作為標記的 `class` 會被放在使用者選中的按鈕上：
-```
+``` html
 <div class="選項 啟用">
         <span class="標題">仙峰寺</span>
 </div>
 ```
 ### JavaScript
 只要在元件載入時呼叫 `emma_bars_slideSegmentedControls`，並輸入各 `class` 的名稱就能讓元件運作。
-```
+``` js
 emma_bars_slideSegmentedControls('容器', '選項', '標題', '滑塊', '啟用')
 ```
 ### CSS

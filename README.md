@@ -1,5 +1,6 @@
 
-https://user-images.githubusercontent.com/16677586/124361079-c0d32900-dc5f-11eb-9470-b48a02563295.mov
+https://user-images.githubusercontent.com/16677586/124363580-a48ab880-dc6e-11eb-8aa3-c3dd664ba1cf.mov
+
 
 ![image](https://i.imgur.com/h0Tb91c.png)  
 本套件是擁有滑動背景效果的 Segmented Controls 元件，用於標示出啟用中按鈕的背景，會在游標懸停到其他選項時，移動到該選項下方作為 hover 效果，並在游標離開後回到原位。

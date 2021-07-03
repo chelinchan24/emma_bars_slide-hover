@@ -58,4 +58,4 @@ CSS 的說明寫在 [`style.css`](https://github.com/chelinchan24/emma_bars_slid
 ## 授權
 本套件以 [MIT License](https://github.com/chelinchan24/emma_bars_slide-segmented-controls/blob/master/LICENSE) 發布。 
   
-如果您想要在自己的專案中使用本套件，請記得要註明作者「@chelinchan24」，並附上網址「[emma.chel.in](https://emma.chel.in)」以供查照。
+如果您想要在自己的專案中使用本套件，請記得要註明作者「@chelinchan24」，並附上網址「[emma.chel.in](http://emma.chel.in)」以供查照。

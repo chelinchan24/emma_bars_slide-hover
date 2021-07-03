@@ -1,7 +1,3 @@
-$(window).on('load', function () {
-    emma_bars_slideSegmentedControls('容器', '選項', '標題', '滑塊', '啟用')
-})
-
 function emma_bars_slideSegmentedControls(containerClass, itemClass, itemTextClass, slideClass, activeClass) {
     var container = $('.' + containerClass)
     var item = $('.' + itemClass)

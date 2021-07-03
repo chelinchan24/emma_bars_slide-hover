@@ -2,7 +2,7 @@
 
 https://user-images.githubusercontent.com/16677586/124361079-c0d32900-dc5f-11eb-9470-b48a02563295.mov
 
-擁有滑動背景效果的 Segmented Controls 元件。讓按鈕啟用時的背景，在游標懸停到其他選項時，移動到選項下方作為 hover 效果，並在游標離開後回到原位。
+本套件是擁有滑動背景效果的 Segmented Controls 元件。讓按鈕啟用時的背景，在游標懸停到其他選項時，移動到選項下方作為 hover 效果，並在游標離開後回到原位。
 
 ## 需求
 - jQuery
@@ -49,4 +49,4 @@ https://user-images.githubusercontent.com/16677586/124361079-c0d32900-dc5f-11eb-
 emma_bars_slideSegmentedControls('容器', '選項', '標題', '滑塊', '啟用')
 ```
 ### CSS
-CSS 的說明有寫在 CSS 檔案內。
+CSS 的說明有寫在 [`style.css`](https://github.com/chelinchan24/emma_bars_slide-segmented-controls/blob/master/style.css) 檔案內。
